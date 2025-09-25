@@ -39,3 +39,6 @@ To run this, you need to build the physical hardware (such as tactile sensors) a
 These scripts can be run separately for individual component testing or as part of a full system test inside the directory. There is no dataset to provide here because these scripts generate output based on real-time sensor (pressure, curvature, tactile) data. They do not use any offline data or datasets.
 'python3 integrated_code.py'
 'python3 pressure_control.py'
+```
+## License
+BSD-3-Clause

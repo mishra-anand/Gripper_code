@@ -11,7 +11,9 @@ Required Hardware: Raspberry Pi 3B or 4B, Raspberry Pi Camera Module, analog pre
 # Install Python dependencies
 pip3 install opencv-python numpy adafruit-circuitpython-ads1x15 adafruit-blinka matplotlib
 # Install system dependencies (for Raspberry Pi camera support)
+
 sudo apt-get install python-picamera python3-picamera
+
 ---
 ## :open_file_folder: Repository Contents
 - `camera_tos.py` – Camera initialization and data acquisition.
